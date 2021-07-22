@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1440"
+   height="1024"
+   viewBox="0 0 380.99999 270.93334"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="pipes2.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     width="1200px"
+     inkscape:snap-page="true"
+     inkscape:snap-object-midpoints="false"
+     inkscape:object-paths="true"
+     inkscape:zoom="0.69397447"
+     inkscape:cx="326.38088"
+     inkscape:cy="300.44333"
+     inkscape:window-width="1920"
+     inkscape:window-height="960"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:object-nodes="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#b3b3b3;stroke-width:4.90382"
+       id="rect894"
+       width="21.9617"
+       height="278.71567"
+       x="20.069706"
+       y="-3.5224133"
+       rx="2"
+       ry="1.923803" />
+    <rect
+       style="fill:#666666;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2465"
+       width="28.349747"
+       height="5.9973207"
+       x="16.53281"
+       y="28.052137"
+       rx="2.0000012"
+       ry="2.0000012" />
+  </g>
+</svg>

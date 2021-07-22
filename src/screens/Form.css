@@ -1,0 +1,22 @@
+
+/* The animation code */
+@keyframes package-down-left {
+  0% {
+		top: 5px;
+		right: 83px;
+	}
+	50% {
+		top: 770px;
+		right: 83px;
+	}
+	100% {
+		top: 770px;
+		right: 1143px;
+	}
+}
+
+/* The element to apply the animation to */
+.animate {
+  animation-name: package-down-left;
+  animation-duration: 4s;
+}

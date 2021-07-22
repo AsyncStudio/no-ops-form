@@ -2,7 +2,9 @@ import Form from './screens/Form'
 
 function App() {
   return (
-		<Form />
+		<div className="max-w-screen-xl mx-auto">
+			<Form />
+		</div>
   );
 }
 

@@ -6,8 +6,12 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 @layer components {
   .page-section {
-    @apply w-full h-screen snap-start;
+    @apply w-full h-screen snap-start z-50;
   }
+
+	.clickable {
+		@apply p-4 border-2 border-transparent rounded-md z-50 ;
+	}
 }
 
 @layer utilities {
