@@ -20,3 +20,7 @@
   animation-name: package-down-left;
   animation-duration: 4s;
 }
+
+.animate-package {
+	transition: left 0.5s, right 0.5s, top 0.5s, bottom 0.5s;
+}

@@ -2,8 +2,6 @@ import React from 'react'
 
 import './Form.css'
 
-import initialPipes from '../assets/pipes1.svg'
-import linePipe from '../assets/pipes2.svg'
 import packageImg from '../assets/package.svg'
 import globe from '../assets/globe.png'
 import game from '../assets/game.png'
@@ -34,7 +32,6 @@ const APPLICATION_TYPES = [
 ]
 
 function Form () {
-	const [packageX, setPackageX] = React.useState(1440 - 1280 - 77)
 	const [appType, setAppType] = React.useState('')
 
 	const scrollTo = (elementId) => {
@@ -54,19 +51,35 @@ function Form () {
 		);
 	}
 
-	const InitialPipe = () => <img id="pipe" src={initialPipes} className="object-fill absolute max-w-screen max-h-screen" alt="" style={{ zIndex: -50 }} />;
-	const LinePipe = () => <img src={linePipe} className="object-fill absolute max-w-screen max-h-screen" alt="" style={{ zIndex: -50 }} />;
-
 	return (
-		<main className="max-h-screen relative">
-			<img
-				className="object-fill absolute max-w-screen max-h-screen z-10"
-				style={{ top: 5, right: packageX }}
-				src={packageImg}
-				alt=""
-			/>
-			<section id="appType" className="page-section relative">
-				<InitialPipe />
+		<main className="max-h-screen">
+			<section id="appType" className="page-section pipes1 relative">
+				{/* Draw Pipes */}
+				<img
+					id="package"
+					className="object-fill absolute max-w-screen max-h-screen animate-package"
+					style={{ top: 5, right: 58, zIndex: 100 }}
+					src={packageImg}
+					alt=""
+				/>
+				<div
+					className="absolute bg-gray-300 p-10"
+					style={{ right: 50, top: 0, bottom: 50, zIndex: -100 }}
+				/>
+				<div
+					className="absolute bg-gray-300 p-10"
+					style={{ left: 0, bottom: 50, right: 50, zIndex: -100 }}
+				/>
+				<div
+					className="absolute bg-gray-300 p-10"
+					style={{ left: 0, bottom: 0, zIndex: -100 }}
+				/>
+				<div
+					className="absolute bg-gray-500 py-3 px-12"
+					style={{ right: 40, top: 100, zIndex: -100 }}
+				/>
+				{/* End Pipes */}
+
 				<div className="container p-40">
 					<h1 className="text-5xl font-bold pb-4">Start a NoOps Boilerplate</h1>
 					<h2 className="text-3xl font-light">Choose the application type you want to build</h2>
@@ -88,7 +101,23 @@ function Form () {
 			</section>
 
 			<section id="language" className="page-section relative">
-				<LinePipe />
+				{/* Draw Pipes */}
+				<img
+					id="package"
+					className="object-fill absolute max-w-screen max-h-screen animate-package"
+					style={{ top: 20, left: 8, zIndex: 100 }}
+					src={packageImg}
+					alt=""
+				/>
+				<div
+					className="absolute bg-gray-300 p-10"
+					style={{ left: 0, top: 0, bottom: 0, zIndex: -100 }}
+				/>
+				<div
+					className="absolute bg-gray-500 py-3 px-12"
+					style={{ left: -10, top: 100, zIndex: -100 }}
+				/>
+				{/* End Pipes */}
 
 				<div className="absolute right-1/2 top-10">
 					<button className="text-2xl" onClick={() => scrollTo("appType")}>
@@ -113,18 +142,42 @@ function Form () {
 			</section>
 
 			<section id="section3" className="page-section relative">
-				<LinePipe />
-				Section 3
+				{/* Draw Pipes */}
+				<div
+					className="absolute bg-gray-300 p-10"
+					style={{ left: 0, top: 0, bottom: 0, zIndex: -100 }}
+				/>
+				<div
+					className="absolute bg-gray-500 py-3 px-12"
+					style={{ left: -10, top: 100, zIndex: -100 }}
+				/>
+				{/* End Pipes */}
 			</section>
 
 			<section id="section4" className="page-section relative">
-				<LinePipe />
-				Section 4
+				{/* Draw Pipes */}
+				<div
+					className="absolute bg-gray-300 p-10"
+					style={{ left: 0, top: 0, bottom: 0, zIndex: -100 }}
+				/>
+				<div
+					className="absolute bg-gray-500 py-3 px-12"
+					style={{ left: -10, top: 100, zIndex: -100 }}
+				/>
+				{/* End Pipes */}
 			</section>
 
 			<section id="section5" className="page-section relative">
-				<LinePipe />
-				Section 5
+				{/* Draw Pipes */}
+				<div
+					className="absolute bg-gray-300 p-10"
+					style={{ left: 0, top: 0, bottom: 0, zIndex: -100 }}
+				/>
+				<div
+					className="absolute bg-gray-500 py-3 px-12"
+					style={{ left: -10, top: 100, zIndex: -100 }}
+				/>
+				{/* End Pipes */}
 			</section>
 		</main>
 	)

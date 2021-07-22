@@ -6,25 +6,10 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 @layer components {
   .page-section {
-    @apply w-full h-screen snap-start z-50;
+    @apply w-full h-screen z-50;
   }
 
 	.clickable {
 		@apply p-4 border-2 border-transparent rounded-md z-50 ;
 	}
-}
-
-@layer utilities {
-  .snap {
-    scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
-  }
-  .snap-y {
-    --scroll-snap-direction: y;
-  }
-  .snap-mandatory {
-    --scroll-snap-constraint: mandatory;
-  }
-  .snap-start {
-    scroll-snap-align: start;
-  }
 }
