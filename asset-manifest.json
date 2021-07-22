@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/no-ops-form/static/css/main.b24f3a0c.chunk.css",
-    "main.js": "/no-ops-form/static/js/main.b2d4132b.chunk.js",
-    "main.js.map": "/no-ops-form/static/js/main.b2d4132b.chunk.js.map",
-    "runtime-main.js": "/no-ops-form/static/js/runtime-main.9133d6c0.js",
-    "runtime-main.js.map": "/no-ops-form/static/js/runtime-main.9133d6c0.js.map",
-    "static/js/2.69597117.chunk.js": "/no-ops-form/static/js/2.69597117.chunk.js",
-    "static/js/2.69597117.chunk.js.map": "/no-ops-form/static/js/2.69597117.chunk.js.map",
-    "static/js/3.e123ded4.chunk.js": "/no-ops-form/static/js/3.e123ded4.chunk.js",
-    "static/js/3.e123ded4.chunk.js.map": "/no-ops-form/static/js/3.e123ded4.chunk.js.map",
+    "main.css": "/no-ops-form/static/css/main.403902bf.chunk.css",
+    "main.js": "/no-ops-form/static/js/main.32860263.chunk.js",
+    "main.js.map": "/no-ops-form/static/js/main.32860263.chunk.js.map",
+    "runtime-main.js": "/no-ops-form/static/js/runtime-main.e8185eb7.js",
+    "runtime-main.js.map": "/no-ops-form/static/js/runtime-main.e8185eb7.js.map",
+    "static/js/2.7aeca77e.chunk.js": "/no-ops-form/static/js/2.7aeca77e.chunk.js",
+    "static/js/2.7aeca77e.chunk.js.map": "/no-ops-form/static/js/2.7aeca77e.chunk.js.map",
+    "static/js/3.db658b86.chunk.js": "/no-ops-form/static/js/3.db658b86.chunk.js",
+    "static/js/3.db658b86.chunk.js.map": "/no-ops-form/static/js/3.db658b86.chunk.js.map",
     "index.html": "/no-ops-form/index.html",
-    "static/css/main.b24f3a0c.chunk.css.map": "/no-ops-form/static/css/main.b24f3a0c.chunk.css.map",
-    "static/js/2.69597117.chunk.js.LICENSE.txt": "/no-ops-form/static/js/2.69597117.chunk.js.LICENSE.txt",
-    "static/media/package.b0abfe5c.svg": "/no-ops-form/static/media/package.b0abfe5c.svg"
+    "static/css/main.403902bf.chunk.css.map": "/no-ops-form/static/css/main.403902bf.chunk.css.map",
+    "static/js/2.7aeca77e.chunk.js.LICENSE.txt": "/no-ops-form/static/js/2.7aeca77e.chunk.js.LICENSE.txt",
+    "static/media/aws.61321556.png": "/no-ops-form/static/media/aws.61321556.png",
+    "static/media/azure.cae440fe.png": "/no-ops-form/static/media/azure.cae440fe.png",
+    "static/media/azure.fd85ee25.png": "/no-ops-form/static/media/azure.fd85ee25.png",
+    "static/media/gcp.f74427a5.png": "/no-ops-form/static/media/gcp.f74427a5.png",
+    "static/media/heroku.68909cda.svg": "/no-ops-form/static/media/heroku.68909cda.svg",
+    "static/media/package.b0abfe5c.svg": "/no-ops-form/static/media/package.b0abfe5c.svg",
+    "static/media/react-native.770d08ea.svg": "/no-ops-form/static/media/react-native.770d08ea.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9133d6c0.js",
-    "static/js/2.69597117.chunk.js",
-    "static/css/main.b24f3a0c.chunk.css",
-    "static/js/main.b2d4132b.chunk.js"
+    "static/js/runtime-main.e8185eb7.js",
+    "static/js/2.7aeca77e.chunk.js",
+    "static/css/main.403902bf.chunk.css",
+    "static/js/main.32860263.chunk.js"
   ]
 }
